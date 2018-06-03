@@ -4,6 +4,7 @@ addons:
   artifacts:
     paths:
       - results
+    debug: true
   apt:
     sources:
       - google-chrome
