@@ -12,6 +12,7 @@ function print (text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid (name) {
+    return name && /^[a-zA-Zа-яА-я]/.test(name)
 }
 
 function sayHello () {
